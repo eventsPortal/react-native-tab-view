@@ -133,7 +133,7 @@ export default class TabBar<T: *> extends React.Component<Props<T>, State> {
     ) {
       this._resetScroll(this.props.navigationState.index, false);
     } else if (prevProps.navigationState.index !== pendingIndex) {
-      this._resetScroll(this.props.navigationState.index);
+      // this._resetScroll(this.props.navigationState.index);
     }
   }
 
